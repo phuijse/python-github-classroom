@@ -1,0 +1,34 @@
+{
+    "tests": [
+      {
+        "name": "parte1",
+        "setup": "sudo -H pip3 install -r requirements.txt",
+        "run": "pytest test_assignment.py::test_hello",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 5,
+        "points": 1
+      },
+      {
+        "name": "parte2",
+        "setup": "sudo -H pip3 install -r requirements.txt",
+        "run": "pytest test_assignment.py::test_add_two",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 5,
+        "points": 1
+      },
+      {
+        "name": "parte3",
+        "setup": "sudo -H pip3 install -r requirements.txt",
+        "run": "pytest test_assignment.py::test_zero_array",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 5,
+        "points": 1
+      }
+    ]
+  }
